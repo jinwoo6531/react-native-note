@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text, IconButton, TextInput, FAB } from 'react-native-paper';
-import Header from '../component/Header';
+// import Header from '../component/Header';
 
 function AddNotes({ navigation }) {
   const [noteTitle, setNoteTitle] = useState('');
@@ -14,7 +14,7 @@ function AddNotes({ navigation }) {
 
   return (
     <>
-      <Header titleText="Add a New Note" />
+      {/* <Header titleText="Add a New Note" /> */}
       <IconButton
         icon="close"
         size={25}
